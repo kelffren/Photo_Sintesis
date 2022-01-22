@@ -96,7 +96,7 @@ p {
 
 
 
-	/* COlor del fondo del */
+	/* COlor del fondo del menu hamburguesa */
 }
 #header .nav-list ul {
 	list-style: none;
@@ -205,12 +205,13 @@ p {
 /* Hero Section */
 /* Cambiar el back ground del Header */
 #hero {
-	background-image: url(./img/hero-bg.jpg);
+	background-image: url(./img/hero-bg.jpg); 
 	background-size: cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
-	width: 100%;
+	min-width: 100%;
+	
 }
 #hero::after {
 	content: '';
@@ -224,7 +225,7 @@ p {
 	z-index: -1;
 }
 #hero .hero {
-	max-width: 1200px;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
