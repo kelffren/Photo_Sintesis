@@ -10,13 +10,13 @@ html {
 .social-bars {
     
     position: fixed;
-    right: 0;
+  right: 5%;
     top: 35%;
     display: flex;
     flex-direction: column;
     font-size:  2.5rem;
     align-items: flex-end;
-    z-index: 100;
+    z-index: 988;
 }
 
 .icons {
