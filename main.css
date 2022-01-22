@@ -19,6 +19,24 @@ html {
     z-index: 988;
 }
 
+@media only screen and (max-width: 389px) {
+
+
+    .social-bars {
+    
+        position: fixed;
+      right: 3%;
+        top: 35%;
+        display: flex;
+        flex-direction: column;
+        font-size:  2.5rem;
+        align-items: flex-end;
+        z-index: 1000;
+    }
+
+
+}
+
 .icons {
     color: white;
     text-decoration: none;
