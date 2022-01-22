@@ -93,6 +93,10 @@ p {
 	height: 100%;
 	max-width: 1300px;
 	padding: 0 10px;
+
+
+
+	/* COlor del fondo del menu Hamburguesa */
 }
 #header .nav-list ul {
 	list-style: none;
@@ -100,7 +104,7 @@ p {
 	background-color: rgb(31, 30, 30);
 	width: 100vw;
 	height: 100vh;
-	left: 100%;
+	left: 1200px;
 	top: 0;
 	display: flex;
 	flex-direction: column;
@@ -152,7 +156,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	z-index: 80;
+	z-index: 100;
 	cursor: pointer;
 	transform: scale(.8);
 	margin-right: 20px;
