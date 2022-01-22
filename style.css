@@ -96,7 +96,7 @@ p {
 
 
 
-	/* COlor del fondo del menu Hamburguesa */
+	/* COlor del fondo del */
 }
 #header .nav-list ul {
 	list-style: none;
@@ -210,6 +210,7 @@ p {
 	background-position: top center;
 	position: relative;
 	z-index: 1;
+	width: 100%;
 }
 #hero::after {
 	content: '';
