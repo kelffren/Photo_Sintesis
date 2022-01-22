@@ -10,7 +10,7 @@ html {
 .social-bars {
     
     position: fixed;
-  right: 1%;
+  right: 0.1%;
     top: 35%;
     display: flex;
     flex-direction: column;
